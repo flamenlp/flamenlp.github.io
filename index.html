@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Lab</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .carousel-inner {
+            max-height: 500px; /* Set a fixed height for the carousel */
+            overflow: hidden;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+            max-height: 500px; /* Limits the height of the image */
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5); /* Darkens the caption background for better readability */
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to right, #8b0000, #d6662e);">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/fire.png" alt="FLAME Logo" style="height: 40px; margin-right: 10px;">
+                    <em>FLaMe</em>
+                </a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="people.html">People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="publications.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacts</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <div id="flameCarousel" class="carousel slide mt-4" data-ride="carousel">
+        <div class="carousel-inner" id="carouselContent">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+        <a class="carousel-control-prev" href="#flameCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#flameCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2>Welcome to FLAME Research Lab</h2>
+                <p>
+                    FLAME is a hub of innovation and collaboration, committed to advancing the field of Natural Language Processing (NLP). Our team of dedicated researchers, students, and engineers work together to develop cutting-edge algorithms that enhance machines' ability to process, generate, and understand human language. Our research covers a broad spectrum, from foundational work in computational linguistics and machine learning to practical applications in human language technology.
+                </p>
+                <p>
+                    Our lab is not just about research; we actively contribute to the broader NLP community. We create and share educational resources and tools, enabling others to innovate in NLP. At FLAME, we are driven by the transformative potential of language technology and are committed to pushing the boundaries of what is possible in this exciting field.
+                </p>
+                <p>
+                    FLAME is closely aligned with leading AI research initiatives and collaborates with experts across various disciplines to drive the next generation of language models and applications. Join us as we explore the future of language and technology.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <!-- Recent News -->
+                <div class="card mb-4">
+                    <div class="card-header text-center" style="background-color: #d6662e; color: white;">
+                        Recent News
+                    </div>
+                    <div class="card-body" style="max-height: 250px; overflow-y: auto;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
+                    </div>
+                </div>
+
+                <!-- Twitter Feed -->
+                <div class="card" style="background: linear-gradient(135deg, #d6662e, #141d26);">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-white">Twitter Feed</h5>
+                        <div class="tweet-container">
+                            <a class="twitter-timeline" data-width="100%" data-height="300" href="https://twitter.com/XDevelopers?ref_src=twsrc%5Etfw">Tweets by XDevelopers</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-4 text-center">
+        <p>&copy; 2024 Research Lab. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Fetching images and their captions from the JSON file
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('images/carousals/captions.json')
+                .then(response => response.json())
+                .then(data => {
+                    const carouselContent = document.getElementById('carouselContent');
+                    let isActive = true;
+
+                    for (const [image, caption] of Object.entries(data)) {
+                        const carouselItem = document.createElement('div');
+                        carouselItem.className = `carousel-item${isActive ? ' active' : ''}`;
+
+                        carouselItem.innerHTML = `
+                            <img src="images/carousals/${image}" class="d-block w-100" alt="${caption.title}">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>${caption.title}</h5>
+                                <p>${caption.description}</p>
+                            </div>
+                        `;
+
+                        carouselContent.appendChild(carouselItem);
+                        isActive = false;
+                    }
+                })
+                .catch(error => console.error('Error loading carousel images:', error));
+        });
+    </script>
+
+</body>
+</html>
