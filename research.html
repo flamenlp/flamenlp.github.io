@@ -1,138 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Research Lab</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
-        <style>
-            .carousel-inner {
-                max-height: 500px; /* Set a fixed height for the carousel */
-                overflow: hidden;
-            }
-            .carousel-item img {
-                width: 100%;
-                height: auto;
-                object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
-                max-height: 500px; /* Limits the height of the image */
-            }
-            .carousel-caption {
-                background-color: rgba(0, 0, 0, 0.5); /* Darkens the caption background for better readability */
-                padding: 10px;
-                border-radius: 5px;
-            }
-            
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Lab</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+        }
 
-.project {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
 
-.project h3 {
-    margin-top: 0;
-}
+        .card-header {
+            cursor: pointer;
+            background: linear-gradient(to right, #8b0000, #d6662e); /* Matching gradient */
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            position: relative;
+        }
 
-.project p {
-    margin: 5px 0;
-}
+        .card-header::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            font-size: 1.25rem;
+        }
 
-.authors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+        .card-header:hover {
+            background: linear-gradient(to right, #8b0000, #b5532a); /* Slightly different gradient on hover */
+        }
 
-.author {
-    width: 18%;
-    text-align: center;
-    margin-bottom: 20px;
-}
+        .card-body {
+            padding: 15px;
+            background-color: #fff;
+            border-top: 1px solid #d6662e;
+        }
 
-.author img {
-    width: 100%;
-    border-radius: 50%;
-}
+        .card-body ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
 
-.author h4 {
-    margin: 10px 0 5px 0;
-}
+        .card-body li {
+            margin-bottom: 10px;
+        }
 
-.author p {
-    margin: 5px 0;
-} */
+        .author {
+            text-align: left;
+            margin-top: 15px;
+        }
 
+        .author h4 {
+            font-size: 1rem;
+            color: #333;
+            margin: 5px 0;
+        }
 
-.project {
-    border: 1px solid #ddd;
-    /* border: 2px solid grey; */
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
+        footer {
+            background-color: #141d26;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-top: 30px;
+        }
 
-.project h3 {
-    margin-top: 0;
-}
-
-.project p {
-    margin: 5px 0;
-}
-
-.authors {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    /* grid-template-columns: 10; */
-    gap: 10px;
-    margin-top: 15px;
-}
-
-.author {
-    text-align: center;
-}
-
-.author img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.author h4 {
-    margin: 10px 0 5px;
-}
-
-.author p {
-    margin: 5px 0;
-}
-
-.author a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.author a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-
-    /* border-radius: 20px; */
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-        </style>
-    </head>
+        /* Scrollbar customization */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background-color: #d6662e;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f4f4f4;
+        }
+    </style>
+</head>
 
 <body>
     <header>
@@ -143,20 +109,19 @@ footer {
                     <em>FLaMe</em>
                 </a>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="research.html">Research</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="people.html">People</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="publications.html">Publications</a>
-
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contacts</a>
                     </li>
                 </ul>
@@ -165,58 +130,106 @@ footer {
     </header>
 
     <div class="container mt-5">
-        <h2>Our Research</h2>
-        <p class="mt-4">At FLAME Research Lab, our research is driven by the belief that language technology can transform the way we interact with the world. Our work spans various domains, including Mental Health, Fake News, Claims, Propaganda, and Deception, where we apply cutting-edge NLP techniques to address complex challenges. Our projects not only push the boundaries of theoretical understanding but also offer practical solutions to real-world problems.</p>
+        <h2><strong>Research Areas</strong></h2>
+        <br>
+        <p>At <strong>FLaMe Research Lab</strong>, our research is driven by the belief that language technology can transform the way we interact with the world. Our work spans various domains, including <strong>Mental Health</strong>, <strong>Fake News</strong>, <strong>Claims</strong>, <strong>Propaganda</strong>, and <strong>Deception</strong>, where we apply cutting-edge NLP techniques to address complex challenges. Our projects not only push the boundaries of theoretical understanding but also offer practical solutions to real-world problems.</p>
+        
         <p>In each project, we strive to combine rigorous research methodologies with innovative approaches, ensuring that our contributions are both impactful and relevant. Our team is dedicated to advancing the field of NLP through interdisciplinary collaboration, and we take pride in sharing our findings with the broader community. Below, you will find details of our key research projects, highlighting the diversity and depth of our work in NLP.</p>
 
-        <div class="project">
-            <h3>Project: Trust Assessment in Counseling Dialogue</h3>
-            <p>To be filled...</p>
-            <p><strong>KeyWord:</strong> Mental Health, Dialogue System</p>
-            <div class="authors mt-3">
+        <div class="card mb-3">
+            <div class="card-header" data-toggle="collapse" data-target="#project1">
+                <span>Mental Health</span>
+            </div>
+            <div id="project1" class="collapse card-body">
+                <ul>
+                    <li>Couselling Conversation and Summarisation</li>
+                    <li>Responsible and Safety AI</li>
+                </ul>
                 <div class="author">
-                    <img src="images/aseem.jpg" alt="Author 1">
-                    <h5 class="fw-bolder">Aseem Srivastava</h5>
-                </div>
-                <div class="author">
-                    <img src="images/ayush.jpg" alt="Author 2">
-                    <h5 class="fw-bolder">Ayush Aggarwal</h5>
+                    <h4><strong>Aseem Srivastava</strong></h4>
+                    <h4><strong>Abdullah Mazhar</strong></h4>
                 </div>
             </div>
         </div>
 
-        <div class="project">
-            <h3>Project: Conversational Understanding in Mental Health Counseling</h3>
-            <p>To be filled...</p>
-            <p><strong>KeyWord:</strong> Dialogue System, Mental Health</p>
-            <div class="authors mt-3">
+        <div class="card mb-3">
+            <div class="card-header" data-toggle="collapse" data-target="#project2">
+                <span>Information Disorder</span>
+            </div>
+            <div id="project2" class="collapse card-body">
+                <ul>
+                    <li>To be filled...</li>
+                    <li>To be filled</li>
+                </ul>
                 <div class="author">
-                    <img src="images/aseem.jpg" alt="Author 1">
-                    <h5 class="fw-bolder">Aseem Srivastava</h5>
+                    <h4><strong>Megha Sundriyal</strong></h4>
+                    <h4><strong>Zeba Afroz</strong></h4>
                 </div>
             </div>
         </div>
 
-        <div class="project">
-            <h3>Project: Behavioral Analysis on Online Mental Health Communities</h3>
-            <p>To be filled...</p>
-            <p><strong>KeyWord:</strong> OMHC, Behavioral Analysis</p>
-            <div class="authors mt-3">
+        <div class="card mb-3">
+            <div class="card-header" data-toggle="collapse" data-target="#project3">
+                <span>Automatic Speech Recognition/Text to Speech</span>
+            </div>
+            <div id="project3" class="collapse card-body">
+                <ul>
+                    <li>To be filled...</li>
+                    <li>To be filled</li>
+                </ul>
                 <div class="author">
-                    <img src="images/aseem.jpg" alt="Author 1">
-                    <h5 class="fw-bolder">Aseem Srivastava</h5>
+                    <h4><strong>Shivam kumar</strong></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-header" data-toggle="collapse" data-target="#project4">
+                <span>Explainable AI</span>
+            </div>
+            <div id="project4" class="collapse card-body">
+                <ul>
+                    <li>To be filled...</li>
+                    <li>To be filled</li>
+                </ul>
+                <div class="author">
+                    <h4><strong>Sourav Chakraborty</strong></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-header" data-toggle="collapse" data-target="#project5">
+                <span>Healthcare</span>
+            </div>
+            <div id="project5" class="collapse card-body">
+                <ul>
+                    <li>To be filled...</li>
+                    <li>To be filled</li>
+                </ul>
+                <div class="author">
+                    <h4><strong>Abdullah Mazhar</strong></h4>
+                    <h4><strong>Gauri Naik</strong></h4>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="mt-5">
+    <footer class="mt-4 text-center">
         <p>&copy; 2024 Research Lab. All rights reserved.</p>
+        <!-- Social media icons -->
+        <div>
+            <a href="https://www.linkedin.com/company/flamenlp/?viewAsMember=true" target="_blank" class="mr-3">
+                <i class="fab fa-linkedin fa-2x" style="color: #0e76a8;"></i>
+            </a>
+            <a href="https://github.com/flamenlp" target="_blank" class="mr-3">
+                <i class="fab fa-github fa-2x" style="color: #333;"></i>
+            </a>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

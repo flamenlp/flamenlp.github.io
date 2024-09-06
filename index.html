@@ -6,23 +6,92 @@
     <title>Research Lab</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .carousel-inner {
-            max-height: 500px; /* Set a fixed height for the carousel */
-            overflow: hidden;
-        }
-        .carousel-item img {
-            width: 100%;
-            height: auto;
-            object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
-            max-height: 500px; /* Limits the height of the image */
-        }
-        .carousel-caption {
-            background-color: rgba(0, 0, 0, 0.5); /* Darkens the caption background for better readability */
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <style>
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Align items at the top */
+        height: 300px; /* Adjust height as needed */
+        overflow: hidden; /* Hide any overflow */
+        padding: 0; /* Remove default padding */
+        box-sizing: border-box; /* Include padding in height calculation */
+    }
+    
+    .notifications-list {
+        overflow-y: auto;
+        padding: 10px;
+        height: calc(100% - 50px); /* Adjust to fill the remaining height below the header */
+        box-sizing: border-box;
+    }
+    
+    .card-header {
+        height: 50px; /* Adjust height as needed */
+        line-height: 40px; /* Vertically center text in header */
+        background-color: #d6662e; /* Background color for the header */
+        color: white; /* Text color for the header */
+    }
+    
+    .card {
+        height: 350px; /* Ensure height fits your design */
+        overflow: hidden; /* Prevents overflow outside the card */
+    }
+    
+    .no-notifications {
+        text-align: center;
+        padding: 20px;
+        color: #999;
+    }
+    
+    footer {
+        background-color: #141d26;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    .news-section {
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-height: 450px; /* Set the maximum height for scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+    }
+    
+    .news-item {
+        margin-bottom: 15px;
+    }
+    
+    .news-date {
+        font-weight: bold;
+        color: #d6662e;
+        margin-bottom: 5px;
+    }
+    
+    .news-description {
+        margin: 0;
+        line-height: 1.6;
+    }
+    
+    .carousel-inner {
+        max-height: 500px; /* Set a fixed height for the carousel */
+        overflow: hidden;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+        max-height: 500px; /* Limits the height of the image */
+    }
+    
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5); /* Darkens the caption background for better readability */
+        padding: 10px;
+        border-radius: 5px;
+    }</style>
 </head>
 <body>
     <header>
@@ -74,32 +143,40 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-8">
-                <h2>Welcome to FLAME Research Lab</h2>
-                <p>
-                    FLAME is a hub of innovation and collaboration, committed to advancing the field of Natural Language Processing (NLP). Our team of dedicated researchers, students, and engineers work together to develop cutting-edge algorithms that enhance machines' ability to process, generate, and understand human language. Our research covers a broad spectrum, from foundational work in computational linguistics and machine learning to practical applications in human language technology.
-                </p>
-                <p>
-                    Our lab is not just about research; we actively contribute to the broader NLP community. We create and share educational resources and tools, enabling others to innovate in NLP. At FLAME, we are driven by the transformative potential of language technology and are committed to pushing the boundaries of what is possible in this exciting field.
-                </p>
-                <p>
-                    FLAME is closely aligned with leading AI research initiatives and collaborates with experts across various disciplines to drive the next generation of language models and applications. Join us as we explore the future of language and technology.
-                </p>
+                <!-- FLAME Lab Introduction -->
+                <div class="intro-section">
+                    <h2>Welcome to FLAME Research Lab</h2>
+                    <p>
+                        <br>
+                        <strong>Frontier in Language Modelling</strong> is a hub of innovation and collaboration, committed to advancing the field of Natural Language Processing (NLP). Our team of dedicated researchers, students, and engineers work together to develop cutting-edge algorithms that enhance machines' ability to process, generate, and understand human language. Our research covers a broad spectrum, from foundational work in computational linguistics and machine learning to practical applications in human language technology.
+                    </p>
+                </div>
+                <!-- Divider Line -->
+                <hr style="border-top: 2px solid #d6662e; margin: 30px 0;">
+        
+                <!-- News Section -->
+                <div class="news-section">
+                    <h3>Latest News</h3>
+                    <div id="news-list" class="news-list"></div>
+                </div>
             </div>
+    
             <div class="col-lg-4">
-                <!-- Recent News -->
-                <div class="card mb-4">
-                    <div class="card-header text-center" style="background-color: #d6662e; color: white;">
-                        Recent News
-                    </div>
-                    <div class="card-body" style="max-height: 250px; overflow-y: auto;">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, recusandae.</p>
+                <!-- Recent Notifications card -->
+                <div class="card mb-4" style="height: 350px; overflow: hidden;">
+                    <h6 class="card-header text-center" style="background-color: #d6662e; color: white;">
+                        Recent Notifications
+                    </h6>
+                    <div class="card-body" style="height: 300px; overflow: hidden; padding: 10px;">
+                        <div id="notifications-list" class="notifications-list">
+                            <!-- Notifications will be dynamically added here -->
+                        </div>
+                        <div id="no-notifications" class="no-notifications" style="display: none;">
+                            No notifications.
+                        </div>
                     </div>
                 </div>
-
+        
                 <!-- Twitter Feed -->
                 <div class="card" style="background: linear-gradient(135deg, #d6662e, #141d26);">
                     <div class="card-body">
@@ -114,14 +191,69 @@
         </div>
     </div>
 
-    <footer class="mt-4 text-center">
-        <p>&copy; 2024 Research Lab. All rights reserved.</p>
-    </footer>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let allNews = [];
+    
+            // Fetch news from JSON
+            fetch('news.json')
+                .then(response => response.json())
+                .then(data => {
+                    allNews = data;
+                    displayNews(allNews);
+                })
+                .catch(error => console.error('Error fetching news:', error));
+    
+            function displayNews(newsItems) {
+                const newsList = document.getElementById('news-list');
+                newsList.innerHTML = ''; // Clear previous content
+    
+                newsItems.forEach(news => {
+                    const newsItem = document.createElement('div');
+                    newsItem.className = 'news-item';
+    
+                    newsItem.innerHTML = `
+                        <p class="news-date"><strong>${news.date}</strong></p>
+                        <p class="news-description">${news.description}</p>
+                    `;
+    
+                    newsList.appendChild(newsItem);
+                });
+            }
+        });
+    </script>
+
+<footer class="mt-4 text-center">
+    <p>&copy; 2024 Research Lab. All rights reserved.</p>
+    <!-- Social media icons -->
+    <div>
+        <a href="https://www.linkedin.com/company/flamenlp/?viewAsMember=true" target="_blank" class="mr-3">
+            <i class="fab fa-linkedin fa-2x" style="color: #0e76a8;"></i>
+        </a>
+        <a href="https://github.com/flamenlp" target="_blank" class="mr-3">
+            <i class="fab fa-github fa-2x" style="color: #333;"></i>
+        </a>
+    </div>
+</footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Load Twitter widget asynchronously
+            const script = document.createElement('script');
+            script.src = "https://platform.twitter.com/widgets.js";
+            script.async = true;
+            script.onload = function () {
+                // Code to execute after script has loaded
+                console.log("Twitter widget loaded.");
+            };
+            document.body.appendChild(script);
+        });
+    </script>
     <script>
         // Fetching images and their captions from the JSON file
         document.addEventListener("DOMContentLoaded", function() {
@@ -150,6 +282,58 @@
                 .catch(error => console.error('Error loading carousel images:', error));
         });
     </script>
+<script>    document.addEventListener("DOMContentLoaded", function () {
+    // Fetch notifications from JSON
+    fetch('notifications.json')
+        .then(response => response.json())
+        .then(data => {
+            displayNotifications(data);
+        })
+        .catch(error => console.error('Error fetching notifications:', error));
 
+    function displayNotifications(notifications) {
+        const notificationsList = document.getElementById('notifications-list');
+        notificationsList.innerHTML = ''; // Clear previous content
+
+        if (notifications.length === 0) {
+            document.getElementById('no-notifications').style.display = 'block';
+            return;
+        }
+
+        document.getElementById('no-notifications').style.display = 'none';
+
+        notifications.forEach(notification => {
+            const notificationItem = document.createElement('div');
+            notificationItem.className = 'news-item';
+
+            notificationItem.innerHTML = `
+                <p><strong>${notification.date || 'No Date'}</strong>: ${notification.message}</p>
+            `;
+
+            notificationsList.appendChild(notificationItem);
+        });
+
+        // Auto-scrolling effect
+        function scrollNotifications() {
+            const scrollHeight = notificationsList.scrollHeight;
+            let scrollTop = 0;
+            const scrollSpeed = 0.5; // Adjust speed as needed
+
+            function scroll() {
+                if (scrollTop + notificationsList.clientHeight >= scrollHeight) {
+                    scrollTop = 0; // Reset scroll position
+                } else {
+                    scrollTop += scrollSpeed;
+                }
+                notificationsList.scrollTop = scrollTop;
+                requestAnimationFrame(scroll);
+            }
+
+            scroll();
+        }
+
+        scrollNotifications();
+    }
+});</script>
 </body>
 </html>

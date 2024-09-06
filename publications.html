@@ -6,33 +6,40 @@
     <title>Publications - Research Lab</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
+        
         #search-bar {
-    flex-grow: 1;
-    padding: 10px;
-    font-size: 16px;
-}
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-
-    /* border-radius: 20px; */
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 16px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            height: 50px; /* Adjust footer height as needed */
+        }
 
         body {
-            background-color: #f0f0f0; /* Example background color */
-            font-size: 16px; /* Ensure this matches the font size in index.html */
+        background-color: #f0f0f0; 
+        font-size: 16px; 
+        margin: 0;
+        padding: 0;
+        height: 100vh; /* Ensures the body height takes up full screen */
+        overflow: hidden; /* Prevents the entire page from scrolling */
         }
     
         .container {
-            margin-top: 20px; /* Add space from the top */
+            margin-top: 20px; 
+            height: calc(100vh - 60px); /* Adjusts the container height to fill the screen, minus the navbar and footer */
+            overflow-y: auto; /* Allows scrolling inside the container */
         }
     
         .search-container, .filter-tags {
@@ -41,9 +48,11 @@ footer {
     
         /* Ensure publications list is aligned to the left */
         #publications-list {
-            text-align: left; /* Align text to the left */
-            margin:  10px; /* Remove default margin */
-            padding: 0; /* Remove default padding */
+            height: 500px; /* You can adjust the height as needed */
+            overflow-y: auto; /* Enables scrolling for the publications list */
+            padding: 15px;
+            background-color: #fff; /* Optional: background to distinguish from the rest of the page */
+            border-radius: 8px; /* Optional: for a nicer look */
         }
     
         .publication-item {
@@ -126,7 +135,7 @@ footer {
                 </a>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="research.html">Research</a>
@@ -146,23 +155,25 @@ footer {
     </header>
     <div class="container">
         <h2>Publications</h2>
-        <div class="search-container">
-            <input type="text" id="search-bar" placeholder="Search publications...">
-            <!-- <button id="search-button">Search</button> -->
-        </div>
-        <div class="filter-tags">
-            <button class="filter-button" data-filter="All">All</button>
-            <button class="filter-button" data-filter="Journal">Journal</button>
-            <button class="filter-button" data-filter="Conference">Conference</button>
-        
-            <!-- Year Dropdown -->
-            <select id="year-dropdown" class="filter-button">
-                <option value="All">Select Year</option>
-                <!-- Year options will be populated dynamically -->
-            </select>
-        </div>
-        
-        <div id="publications-list"></div>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search publications...">
+    </div>
+    <div class="filter-tags">
+        <button class="filter-button" data-filter="All">All</button>
+        <button class="filter-button" data-filter="Journal">Journal</button>
+        <button class="filter-button" data-filter="Conference">Conference</button>
+    
+        <!-- Year Dropdown -->
+        <select id="year-dropdown" class="filter-button">
+            <option value="All">Select Year</option>
+            <!-- Year options will be populated dynamically -->
+        </select>
+    </div>
+
+    <!-- Publications list with a fixed height and scrolling -->
+    <div id="publications-list">
+        <!-- Publication items will be dynamically loaded here -->
+    </div>
         
         <script>
             document.addEventListener("DOMContentLoaded", function () {
@@ -257,8 +268,17 @@ footer {
             });
         </script>
     </div>
-    <footer>
+    <footer class="mt-4 text-center">
         <p>&copy; 2024 Research Lab. All rights reserved.</p>
+        <!-- Social media icons -->
+        <div>
+            <a href="https://www.linkedin.com/company/flamenlp/?viewAsMember=true" target="_blank" class="mr-3">
+                <i class="fab fa-linkedin fa-2x" style="color: #0e76a8;"></i>
+            </a>
+            <a href="https://github.com/flamenlp" target="_blank" class="mr-3">
+                <i class="fab fa-github fa-2x" style="color: #333;"></i>
+            </a>
+        </div>
     </footer>
     <script src="js/publications.js"></script>
 </body>

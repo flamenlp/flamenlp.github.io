@@ -1,0 +1,55 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+     // Fetch notifications from JSON
+     fetch('notifications.json')
+         .then(response => response.json())
+         .then(data => {
+             displayNotifications(data);
+         })
+         .catch(error => console.error('Error fetching notifications:', error));
+ 
+     function displayNotifications(notifications) {
+         const notificationsList = document.getElementById('notifications-list');
+         notificationsList.innerHTML = ''; // Clear previous content
+ 
+         if (notifications.length === 0) {
+             document.getElementById('no-notifications').style.display = 'block';
+             return;
+         }
+ 
+         document.getElementById('no-notifications').style.display = 'none';
+ 
+         notifications.forEach(notification => {
+             const notificationItem = document.createElement('div');
+             notificationItem.className = 'news-item';
+ 
+             notificationItem.innerHTML = `
+                 <p><strong>${notification.date || 'No Date'}</strong>: ${notification.message}</p>
+             `;
+ 
+             notificationsList.appendChild(notificationItem);
+         });
+ 
+         // Auto-scrolling effect
+         function scrollNotifications() {
+             const scrollHeight = notificationsList.scrollHeight;
+             let scrollTop = 0;
+             const scrollSpeed = 0.5; // Adjust speed as needed
+ 
+             function scroll() {
+                 if (scrollTop + notificationsList.clientHeight >= scrollHeight) {
+                     scrollTop = 0; // Reset scroll position
+                 } else {
+                     scrollTop += scrollSpeed;
+                 }
+                 notificationsList.scrollTop = scrollTop;
+                 requestAnimationFrame(scroll);
+             }
+ 
+             scroll();
+         }
+ 
+         scrollNotifications();
+     }
+ });
+ </script>
