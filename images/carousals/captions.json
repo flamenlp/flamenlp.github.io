@@ -1,16 +1,11 @@
 {
 
     "flame_lab.jpg": {
-        "title": "Lab Members",
+        "title": "Lab Members @ FLaMe",
         "description": ""
-    },
- 
-    "aseem.jpg": {
-        "title": "KDD-2022",
-        "description": "Mental health @KDD"
     },
     "google.jpg": {
         "title": "Google Week",
-        "description": "Members of Flame at Google reasearch week"
+        "description": "Members of FLaMe at Google reasearch week"
     }
 }

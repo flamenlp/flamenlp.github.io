@@ -307,7 +307,7 @@
             notificationItem.className = 'news-item';
 
             notificationItem.innerHTML = `
-                <p><strong>${notification.date || 'No Date'}</strong>: ${notification.message}</p>
+                <p><strong>${notification.date || ''}</strong> ${notification.message}</p>
             `;
 
             notificationsList.appendChild(notificationItem);
