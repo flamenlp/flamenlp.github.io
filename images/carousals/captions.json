@@ -1,13 +1,15 @@
 {
+
+    "flame_lab.jpg": {
+        "title": "Lab Members",
+        "description": ""
+    },
     "award.jpg": {
         "title": "Best Teaching Award",
         "description": ""
     },
     
-    "flame_lab.jpg": {
-        "title": "Lab Members",
-        "description": ""
-    },
+
     "aseem.jpg": {
         "title": "KDD-2022",
         "description": "Mental health @KDD"
