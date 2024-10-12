@@ -196,21 +196,22 @@
                         displayPublications(allPublications);
                     });
         
-                    function displayPublications(publications) {
-    const publicationsList = document.getElementById('publications-list');
-    publicationsList.innerHTML = '';
-    publications.forEach(publication => {
-        const publicationItem = document.createElement('div'); // Use 'div' for better block alignment
-        publicationItem.className = 'publication-item';
-        publicationItem.dataset.year = publication.year;
-        publicationItem.dataset.type = publication.type;
+                function displayPublications(publications) 
+                {
+                    const publicationsList = document.getElementById('publications-list');
+                    publicationsList.innerHTML = '';
+                    publications.forEach(publication => {
+                        const publicationItem = document.createElement('div'); // Use 'div' for better block alignment
+                        publicationItem.className = 'publication-item';
+                        publicationItem.dataset.year = publication.year;
+                        publicationItem.dataset.type = publication.type;
 
-        publicationItem.innerHTML = `
-            <p>[${publication.venue} - ${publication.year}] <b>${publication.title}</b> ${publication.authors} <a href="${publication.paperLink}" class="btn" target="_blank">[Paper]</a></p>
-        `;
-        publicationsList.appendChild(publicationItem);
-    });
-}
+                        publicationItem.innerHTML = `
+                            <p><b>[${publication.venue} - ${publication.year}]</b> ${publication.title} ${publication.authors} <a href="${publication.paperLink}" class="btn" target="_blank">[Paper]</a></p>
+                        `;
+                        publicationsList.appendChild(publicationItem);
+                    });
+                }
                 function populateYearDropdown(years) {
                     const yearDropdown = document.getElementById('year-dropdown');
                     years.forEach(year => {
@@ -267,6 +268,9 @@
             });
         </script>
     </div>
+
+    <br>
+
     <footer class="mt-4 text-center">
         <p>&copy; FLaMe Research Lab 2024.</p>
         <!-- Social media icons -->
@@ -278,7 +282,7 @@
                 <i class="fab fa-github fa-2x" style="color: #333;"></i>
             </a>
         </div>
-    </footer>
-    <script src="js/publications.js"></script>
+    <footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
