@@ -7,5 +7,13 @@
     "google.jpg": {
         "title": "Google Week",
         "description": "Members of FLaMe at Google reasearch week"
+    },
+    "aseem.jpg": {
+        "title": " Presenting AI-Driven Response Generation for Mental Health Counseling at WWW 2023",
+        "description":"A paper on leveraging reinforcement learning for large language models to generate controlled responses in virtual mental health assistants, presented at The Web Conference (WWW) 2023 in Austin, Texas."
+    },
+    "1.png": {
+        "title": "We are hiring!!",
+        "description":""
     }
 }
