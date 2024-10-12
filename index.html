@@ -83,8 +83,8 @@
     .carousel-item img {
         width: 100%;
         height: auto;
-        object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
-        max-height: 500px; /* Limits the height of the image */
+        object-fit:cover; /* Ensures the image covers the container while maintaining aspect ratio */
+        max-height:500px; /* Limits the height of the image */
     }
     
     .carousel-caption {
@@ -169,7 +169,7 @@
                     </h6>
                     <div class="card-body" style="height: 300px; overflow: hidden; padding: 10px;">
                         <div id="notifications-list" class="notifications-list">
-<!--                             The FLaME.nlp research lab @ IIIT Delhi is inviting applications for Research Assistant posts. Click <a href = "Advertisement for Research Positions.pdf">here </a> for more details !!! -->
+
                         </div>
                         <div id="no-notifications" class="no-notifications" style="display: none;">
                             No notifications.
@@ -307,7 +307,7 @@
             notificationItem.className = 'news-item';
 
             notificationItem.innerHTML = `
-                <p><strong>${notification.date || ''}</strong> ${notification.message}</p>
+                <p><strong>${notification.date || ''}</strong> ${notification.message} ${notification.Link || ''}</p>
             `;
 
             notificationsList.appendChild(notificationItem);
