@@ -1,5 +1,16 @@
 [
   {
+    "venue": "EMNLP",
+    "authors": "Aseem Srivastava, Smriti Joshi, Tanmoy Chakraborty, Md Shad Akhtar.",
+    "title": "Knowledge Planning in Large Language Models for Domain-Aligned Counseling Summarization",
+    "year": 2024,
+    "type": "Conference",
+    "paperLink": "https://arxiv.org/abs/2409.14907",
+    "codeLink": "",
+    "datasetLink": "",
+    "presentationLink": ""
+  },
+  {
     "venue": "ICLR",
     "authors": "Ayan Sengupta, Shantanu Dixit, Md Shad Akhtar, Tanmoy Chakraborty.",
     "title": "A Good Learner can Teach Better: TEACHER-STUDENT COLLABORATIVE KNOWLEDGE DISTILLATION",
@@ -33,7 +44,7 @@
     "presentationLink": ""
   },
   {
-    "venue": "Coling",
+    "venue": "COLING",
     "authors": "Shivani Kumar, Rishabh Gupta, Md Shad Akhtar, Tanmoy Chakraborty.",
     "title": "Adding SPICE to Life: Speaker Profiling in Multiparty Conversations,",
     "year": 2024,
@@ -44,7 +55,7 @@
     "presentationLink": ""
   },
   {
-    "venue": "Coling",
+    "venue": "COLING",
     "authors": "Kartik Kartik, Sanjana Soni, Anoop Kunchukuttan, Tanmoy Chakraborty, Md Shad Akhtar.",
     "title": "Synthetic Data Generation and Joint Learning for Robust Code-Mixed Translation",
     "year": 2024,
