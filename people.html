@@ -421,7 +421,19 @@ main {
 } */
 .fw-bolder {
     font-weight: bolder !important;
-  }    
+  }
+  
+#btech {
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Space between the columns */
+    margin-top: 20px;
+}
+
+#btech li {
+    padding: 5px 0; /* Adds some spacing between each list item */
+}
+
 </style>
 </head>
 <body>
@@ -429,8 +441,8 @@ main {
         <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to right, #8b0000, #d6662e);">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="images/fire.png" alt="FLAME Logo" style="height: 40px; margin-right: 10px;">
-                    <em>FLaMe</em>
+                    <img src="images/lab-logo.png" alt="FLAME Logo" style="height: 40px; margin-right: 10px;">
+                    <em></em>
                 </a>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
@@ -543,35 +555,36 @@ main {
                             <a href="https://www.linkedin.com/in/zeba-afroz-676390186/" target="_blank">LinkedIn</a> | 
                         
                     </div>
-                </div>             
-            </div>
-        </section>
+                </div>
 
-        <hr>
-
-
-        <section id="research-assistants">
-            <h2 class="abc">Research Assistants</h2>
-
-            <div class="people-container">
                 <div class="person">
                     <div class="people-card">
                         <img src="images/aditya.jpg" alt="Faculty 1">
                     </div>
                     <div style="margin-left: 30px; text-align: left; ">
                         <h3>Aditya Bhardawaj</h3>
-                        <p><strong>Joined:</strong><i> January, 2024</i></p>
-                        <!-- <p><strong>Topic:</strong> Artificial Intelligence in Healthcare</p> -->
+                        <p><strong>Joined:</strong><i> October, 2024</i></p>
+                        <p><strong>Topic:</strong> Artificial Intelligence in Healthcare</p>
                         
                         <p>
-   
+    
                             <a href="https://www.linkedin.com/in/a-aditya-bhardwaj" target="_blank">LinkedIn</a> | 
-                  
+                    
                     </div>
                 </div>   
+
+    
             </div>
         </section>
 
+        <!-- <hr>
+
+
+        <section id="research-assistants">
+            <h2 class="abc">Research Assistants</h2>
+
+        </section>
+ -->
         <hr>
 
         <section id="mtech">
@@ -608,13 +621,23 @@ main {
             </div>
         </section>
         <hr>
+        <h2 class="abc">B. Tech Students</h2>
         <section id="btech">
-            <h2 class="abc">B. Tech Students</h2>
             <ul>
-                <li>Palaash Sen</li>
-                <li>Harshit Choudhary</li>
-                <li>Mohammad Kaif and N Narotam</li>
-                <li>Jyotirmaya Singh, Arnav Agarwal, Aayush Ranjan</li>
+                <li> Palaash Sen -- <i>Multimodal Learning</i> </li>
+                <li> Harshit Choudhary -- <i>Claim Verification</i> </li>
+                <li> Mohammad Kaif, N Narotam -- <i>Knowledge-graph Distillation</i> </li>
+                <li> Jyotirmaya Singh, Arnav Agarwal, Aayush Ranjan -- <i>Propaganda Detection</i></li>
+                <li> Arjit Singh Arora -- <i>Narrative Summarization</i> </li>
+                <li> Sanmay Sood, Siddharth Rajput -- <i>Dialects Detection In Indian Languages</i> </li>
+            </ul>
+            <ul>
+                <li> Ankur Bohra, Himanshu Singh -- <i>QA system for Policy Documents</i> </li>
+                <li> Jaleel Ahmed, Baljyot Singh Modi -- <i>Review Analysis and Summarization in Course Feedback</i></li>
+                <li> Dhruv Jain, Swapnil Panigrahi -- <i>Controllable Lay Summary</i> </li>
+                <li> Udit -- <i>Fact Verification in Community Question Answering</i> </li>
+                <li> Rahul Bharti, Soham Ghosh -- <i>Text-To-Speech in Code-mixed Language</i> </li>
+                <li> Karan, Prithu Raj Singh -- <i>Counterspeech</i> </li>
             </ul>
         </section>
 
