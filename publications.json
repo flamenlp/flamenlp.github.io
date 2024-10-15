@@ -5,7 +5,7 @@
     "title": "Knowledge Planning in Large Language Models for Domain-Aligned Counseling Summarization",
     "year": 2024,
     "type": "Conference",
-    "paperLink": "https://arxiv.org/abs/2409.14907",
+    "paperLink": "https://arxiv.org/pdf/2409.14907v1",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -34,11 +34,11 @@
   },
   {
     "venue": "Humanit Soc.",
-    "authors": "Tanmoy Chakraborty, Soham Das, Ayan Sengupta, Md Shad Akhtar.",
+    "authors": "Ayan Sengupta, Soham Das, Md Shad Akhtar, Tanmoy Chakraborty.",
     "title": "Social, Economic and Demographic Factors Drive the Emergence of Hinglish Code-mixing on Social Media, Humanities and Social Sciences Communications",
     "year": 2024,
     "type": "",
-    "paperLink": "",
+    "paperLink": "https://link.springer.com/article/10.1057/s41599-024-03058-6",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -46,10 +46,10 @@
   {
     "venue": "COLING",
     "authors": "Shivani Kumar, Rishabh Gupta, Md Shad Akhtar, Tanmoy Chakraborty.",
-    "title": "Adding SPICE to Life: Speaker Profiling in Multiparty Conversations,",
+    "title": "Adding SPICE to Life: Speaker Profiling in Multiparty Conversations",
     "year": 2024,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2024.lrec-main.37/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -71,7 +71,7 @@
     "title": "Probing Critical Learning Dynamics of LLMs for Hate Speech Detection(Findings)",
     "year": 2024,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2024.lrec-main.1345/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -82,7 +82,7 @@
     "title": "From Multilingual Complexity to Emotional Clarity: Leveraging Commonsense to Unveil Emotions in Code-Mixed Dialogues",
     "year": 2023,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2023.emnlp-main.598/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -93,7 +93,7 @@
     "title": "Manifold-Preserving Transformers are Effective for Short-Long Range Encoding",
     "year": 2023,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2023.findings-emnlp.228.pdf",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -115,7 +115,7 @@
     "title": "MEMEX: Detecting Explanatory Evidence for Memes via Knowledge-Enriched Contextualization",
     "year": 2023,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://arxiv.org/pdf/2306.13959",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -126,7 +126,7 @@
     "title": "Counterspeeches up my sleeve! Intent Distribution Learning and Persistent Fusion for Intent-Conditioned Counterspeech Generation",
     "year": 2023,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2023.acl-long.318/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -137,7 +137,7 @@
     "title": "HostileNet: Multi-Label Hostile Post Detection in Hindi",
     "year": 2023,
     "type": "Transaction",
-    "paperLink": "",
+    "paperLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10076421",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -148,7 +148,7 @@
     "title": "Response-act Guided Reinforced Dialogue Generation for Mental Health Counseling",
     "year": 2023,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/abs/10.1145/3543507.3583380",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -159,7 +159,7 @@
     "title": "Characterizing the Entities in Harmful Memes: Who is the Hero, the Villain, the Victim?",
     "year": 2023,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2023.eacl-main.157.pdf",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -170,7 +170,7 @@
     "title": "What do you MEME? Generating Explanations for Visual Semantic Role Labelling in Memes",
     "year": 2023,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/10.1609/aaai.v37i8.26166",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -181,7 +181,7 @@
     "title": "Explaining (Sarcastic) Utterances to Enhance Affect Understanding in Multimodal Dialogues",
     "year": 2023,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/10.1609/aaai.v37i11.26526",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -189,10 +189,10 @@
   {
     "venue": "NeurIPS",
     "authors": "Karish Grover, S M Phaneendra Angara, Md Shad Akhtar, Tanmoy Chakraborty.",
-    "title": "Public Wisdom Matters! Discourse-Aware Hyperbolic Fourier Co-Attention for Social Text Classification,",
+    "title": "Public Wisdom Matters! Discourse-Aware Hyperbolic Fourier Co-Attention for Social Text Classification",
     "year": 2022,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://proceedings.neurips.cc/paper_files/paper/2022/file/3d57795f0e263aa69577f1bbceade46b-Paper-Conference.pdf",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -200,10 +200,10 @@
   {
     "venue": "KDD",
     "authors": "Sarah Masud, Manjot Bedi, Mohammad Aflah Khan, Md Shad Akhtar, Tanmoy Chakraborty.",
-    "title": "Proactively Reducing the Hate Intensity of Online Posts via Hate Speech Normalization, SIGKDD",
+    "title": "Proactively Reducing the Hate Intensity of Online Posts via Hate Speech Normalization",
     "year": 2022,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://arxiv.org/pdf/2206.04007",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -211,10 +211,10 @@
   {
     "venue": "KDD",
     "authors": "Aseem Srivastava, Tharun Suresh, Sarah Lord, Md Shad Akhtar, Tanmoy Chakraborty.",
-    "title": "Counseling Summarization using Mental Health Knowledge Guided Utterance Filtering, SIGKDD",
+    "title": "Counseling Summarization using Mental Health Knowledge Guided Utterance Filtering",
     "year": 2022,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/10.1145/3534678.3539187",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -222,10 +222,10 @@
   {
     "venue": "NAACL",
     "authors": "Shivam Sharma, Md Shad Akhtar, Preslav Nakov, Tanmoy Chakraborty",
-    "title": "DISARM: Detecting the Victims Targeted by Harmful Memes, NAACL (Findings),",
+    "title": "DISARM: Detecting the Victims Targeted by Harmful Memes",
     "year": 2022,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2022.findings-naacl.118/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -236,7 +236,7 @@
     "title": "When did you become so smart, oh wise one?! Sarcasm Explanation in Multi-modal Multi-party Dialogues",
     "year": 2022,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2022.acl-long.411/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -247,7 +247,7 @@
     "title": "Detecting Anchors' Opinion in Hinglish News Delivery",
     "year": 2022,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/10.1007/978-3-031-05933-9_45",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -258,7 +258,7 @@
     "title": "Discovering Emotion and Reasoning its Flip in Multi-Party Conversations using Masked Memory Networks and Transformer, Knowledge-Based System.",
     "year": 2022,
     "type": "",
-    "paperLink": "",
+    "paperLink": "https://arxiv.org/pdf/2103.12360",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -266,10 +266,10 @@
   {
     "venue": "AAAI",
     "authors": "Poorav Desai, Tanmoy Chakraborty, Md Shad Akhtar.",
-    "title": "Nice perfume. How long did you marinate in it? Multimodal Sarcasm Explanation,",
+    "title": "Nice perfume. How long did you marinate in it? Multimodal Sarcasm Explanation",
     "year": 2022,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://cdn.aaai.org/ojs/21300/21300-13-25313-1-2-20220628.pdf",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -280,7 +280,7 @@
     "title": "Speaker and Time-aware Joint Contextual Learning for Dialogue-act Classification in Counselling Conversations",
     "year": 2022,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/10.1145/3488560.3498509",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -291,7 +291,7 @@
     "title": "Does Aggression Lead to Hate? Detecting and Reasoning Offensive Traits in Hinglish Code-Mixed Texts, Neurocomputing",
     "year": 2021,
     "type": "Journal",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/abs/10.1016/j.neucom.2021.11.053",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -302,7 +302,7 @@
     "title": "MOMENTA: A Multimodal Framework for Detecting Harmful Memes and Their Targets",
     "year": 2021,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2021.findings-emnlp.379/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -313,7 +313,7 @@
     "title": "DESYR: Definition and Syntactic Representation Based Claim Detection on the Web",
     "year": 2021,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/10.1145/3459637.3482423",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -324,7 +324,7 @@
     "title": "Multi-modal Sarcasm Detection and Humor Classification in Code-mixed Conversations",
     "year": 2021,
     "type": "Transaction",
-    "paperLink": "",
+    "paperLink": "https://dl.acm.org/doi/10.1109/TAFFC.2021.3083522",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -335,7 +335,7 @@
     "title": "HIT - A Hierarchically Fused Deep Attention Network for Robust Code-mixed Language Representation",
     "year": 2021,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2021.findings-acl.407/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -346,7 +346,7 @@
     "title": "Detecting Harmful Memes and Their Targets",
     "year": 2021,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2021.findings-acl.246/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -357,7 +357,7 @@
     "title": "Syntactically Coherent Text Augmentation for Sequence Classification",
     "year": 2021,
     "type": "Transaction",
-    "paperLink": "",
+    "paperLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9441146",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -368,7 +368,7 @@
     "title": "Exercise? I thought you said 'Extra Fries’: Leveraging Sentence Demarcations and Multi-hop Attention for Meme Affect Analysis",
     "year": 2021,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://arxiv.org/abs/2103.12377",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
@@ -379,7 +379,7 @@
     "title": "LESA: Linguistic Encapsulation and Semantic Amalgamation Based Generalised Claim Detection from Online Content",
     "year": 2021,
     "type": "Conference",
-    "paperLink": "",
+    "paperLink": "https://aclanthology.org/2021.eacl-main.277/",
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
