@@ -1,5 +1,16 @@
 [
   {
+    "venue": "The Web Conference",
+    "authors": " Abdullah Mazhar, Zuhair hasan Shaik, Aseem Srivastava, Polly Ruhnke, Lavanya Vaddavalli, Sri Keshav Katragadda, Shweta Yadav, Md Shad Akhtar",
+    "title": " Figurative-cum-Commonsense Knowledge Infusion for Multimodal Mental Health Meme Classification",
+    "year": 2025,
+    "type": "Conference",
+    "paperLink": "",
+    "codeLink": "",
+    "datasetLink": "",
+    "presentationLink": ""
+  }
+  {
     "venue": "EMNLP",
     "authors": "Aseem Srivastava, Smriti Joshi, Tanmoy Chakraborty, Md Shad Akhtar.",
     "title": "Knowledge Planning in Large Language Models for Domain-Aligned Counseling Summarization",
