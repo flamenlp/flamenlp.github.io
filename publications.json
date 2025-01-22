@@ -9,7 +9,20 @@
     "codeLink": "",
     "datasetLink": "",
     "presentationLink": ""
-  }
+  },
+
+   {
+    "venue": "PLOS ONE",
+    "authors": "Aseem Srivastava, Tanya Gupta, Alison Cerezo, Sarah Peregrine (Grin) Lord, Md Shad Akhtar, Tanmoy Chakraborty",
+    "title": "Critical behavioral traits foster peer engagement in Online Mental Health Communities",
+    "year": 2024,
+    "type": "Journel",
+    "paperLink": "https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0316906",
+    "codeLink": "",
+    "datasetLink": "",
+    "presentationLink": ""
+  }, 
+  
   {
     "venue": "EMNLP",
     "authors": "Aseem Srivastava, Smriti Joshi, Tanmoy Chakraborty, Md Shad Akhtar.",
