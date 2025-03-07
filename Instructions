@@ -1,0 +1,39 @@
+<------Home Page------>
+
+
+Homepage description > _config.yml
+
+Footer social links > _config.yml
+
+Gallery Photos > _data/gallery.yml
+
+Recent Notifications > _data/notifications.yml
+
+Contributors & Sponsors Logo > _data/sponsors.yml
+
+Latest News > _data/news.yml
+
+
+<------Research Page------>
+
+Description > research.html
+
+Card Title / Description > reserach_areas.yml
+
+(for icons https://www.w3schools.com/icons/fontawesome_icons_webapp.asp)
+
+
+<------Team Page------>
+
+Members > _data/team_members
+
+<------Publication Page------>
+
+Papers > _data/publications.yml
+
+<------Contact Page------>
+
+Address / Email / Social Links > _data/contact.yml
+
+
+{use html tags like <br>, <b>, <i>, etc for text formatting}

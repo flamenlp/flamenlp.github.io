@@ -1,0 +1,77 @@
+---
+layout: default
+title: Home
+---
+
+<section class="image-gallery">
+    <div class="gallery-container">
+        {% for image in site.data.gallery %}
+        <div class="gallery-item {% if forloop.first %}active{% endif %}">
+            <img src="{{ image.path | relative_url }}" alt="{{ image.alt }}">
+            <div class="gallery-caption">{{ image.caption }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+
+<section id="research" class="home">
+    <br>
+    <h2>Welcome to {{ site.title }}</h2><br>
+
+    <div class="box wrap">
+        {{ site.description }}
+    </div>
+<br>
+    <div>
+        <a href="{{ '/research' | relative_url }}" class="cta-button">Explore Our Research</a>
+    </div>
+</section>
+
+<br>
+
+<div class="news-container">
+    <section class="news-box">
+        <h3>Latest News</h3>
+        {% for news in site.data.news limit:10 %}
+        <div class="news-item {% if forloop.index > 4 %}hidden-row{% endif %}">
+            <span class="news-date">{{ news.date | date: "%B %d, %Y" }}</span>
+            <span>{{ news.content }}</span>
+        </div>
+        {% endfor %}
+        
+        <div style="text-align: right; margin-top: 10px;">
+            <a href="#" class="view-more" onclick="toggleRows()">view more</a>
+        </div>
+    </section>
+
+    <section class="notifications-box">
+        <h3>Recent Notifications</h3>
+        <div class="notifications-content">
+            <div class="notifications-scroll">
+                {% for notification in site.data.notifications %}
+                <div class="notification-item">
+                    <span class="notification-date">{{ notification.date | date: "%B %d, %Y" }}</span>
+                    <span>{{ notification.content }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section class="notifications-below-box">
+        <h3>Contributors & Sponsors</h3>
+        <div class="gallery-container">
+
+            <div class="comp-gallery-container">
+                {% for sponsor in site.data.sponsors %}
+                <div class="comp-gallery-item {% if forloop.first %}active{% endif %}">
+                    <a href="{{ sponsor.url }}" target="_blank">
+                        <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>    
+        </div>
+    </section>
+</div>

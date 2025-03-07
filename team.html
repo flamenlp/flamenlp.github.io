@@ -1,0 +1,133 @@
+---
+layout: default
+title: Team
+---
+
+<main>
+    <h2 class="team-heading">OUR TEAM</h2>
+
+    <div class="faculty-phd-container">
+        <!-- Faculty Section -->
+        <div class="faculty-member team-member">
+            <h2 style="text-align: center;">Faculty</h2>
+            {% for member in site.data.team_members %}
+            {% if member.category == "faculty" %}
+            <img src="{{ member.image }}" alt="{{ member.name }}">
+            <h3>{{ member.name }}</h3>
+            <p class="position1">{{ member.title }}</p>
+            <p class="bio">{{ member.education }}</p>
+            <div class="social-links">
+                <a href="{{ member.website }}"><i class="fas fa-globe"></i></a>
+                <a href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{ member.google_scholar }}"><i class="fab fa-google"></i></a>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- PhD Students Section -->
+        <div class="phd-member team-member">
+            <h2>Ph.D Students</h2>
+            <div class="member-grid">
+                {% for member in site.data.team_members %}
+                {% if member.category == "phd" %}
+                <div class="member-card">
+                    <img src="{{ member.image }}" alt="{{ member.name }}">
+                    <h3>{{ member.name }}</h3>
+                    <p class="position">Joined: {{ member.joined }}</p>
+                    <p class="bio"><b>Research:</b> {{ member.research_focus }}</p>
+                    <div class="social-links">
+                        <a href="{{ member.website }}"><i class="fas fa-globe"></i></a>
+                        <a href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                        <a href="{{ member.google_scholar }}"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Research Associates Section -->
+    <br><br>
+    <div class="team-grid">
+        <div class="team-member">
+            <h2>Research Associates</h2>
+            <div class="member-grid">
+                {% for member in site.data.team_members %}
+                {% if member.category == "ra" %}
+                <div class="member-card">
+                    <img src="{{ member.image }}" alt="{{ member.name }}">
+                    <h3>{{ member.name }}</h3>
+                    <p class="position">Joined: {{ member.joined }}</p>
+                    <p class="bio"><b>Research:</b> {{ member.research_focus }}</p>
+                    <div class="social-links">
+                        <a href="{{ member.website }}"><i class="fas fa-globe"></i></a>
+                        <a href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                        <a href="{{ member.google_scholar }}"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- MTech Students Section -->
+    <br><br>
+    <div class="team-grid">
+        <div class="team-member">
+            <h2>M. Tech Students</h2>
+            <div class="member-grid">
+                {% for member in site.data.team_members %}
+                {% if member.category == "mtech" %}
+                <div class="member-card">
+                    <img src="{{ member.image }}" alt="{{ member.name }}">
+                    <h3>{{ member.name }}</h3>
+                    <p class="position">Joined: {{ member.joined }}</p>
+                    <p class="bio"><b>Research:</b> {{ member.research_focus }}</p>
+                    <div class="social-links">
+                        <a href="{{ member.website }}"><i class="fas fa-globe"></i></a>
+                        <a href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                        <a href="{{ member.google_scholar }}"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- BTech Students Section -->
+    <br><br>
+    <div class="team-grid">
+        <div class="team-member list-member">
+            <h2 style="text-align:center;">B. Tech Students</h2>
+            <br>
+            <ul>
+                {% for member in site.data.team_members %}
+                {% if member.category == "btech" %}
+                <li>{{ member.name }} -- <b>Research:</b> {{ member.research_focus }}</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Alumni Section -->
+    <br><br>
+    <div class="team-grid">
+        <div class="team-member list-member">
+            <h2 style="text-align: center;">Alumni</h2>
+            <br>
+            <ul>
+                {% for member in site.data.team_members %}
+                {% if member.category == "alumni" %}
+                <li>{{ member.name }} -- <b>Research:</b> {{ member.research_focus }}</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</main>
+

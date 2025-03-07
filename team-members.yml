@@ -1,0 +1,35 @@
+# Faculty
+- name: "Dr. Md. Shad Akhtar"
+  category: "faculty"
+  title: "Assistant Professor"
+  education: "Ph.D. IIT Delhi"
+  image: "/assets/images/aseem.jpg"
+  website: "https://example.com"
+  linkedin: "https://linkedin.com/in/example"
+  google_scholar: "https://scholar.google.com/example"
+
+# PhD Students
+- name: "Sourav Chakraborty"
+  category: "phd"
+  joined: "January, 2024"
+  research_focus: "AI in Healthcare"
+  image: "/assets/images/aseem.jpg"
+  linkedin: "https://linkedin.com/in/example"
+
+# MTech Students
+- name: "MTech Student 1"
+  category: "mtech"
+  joined: "January, 2024"
+  research_focus: "Machine Learning"
+  image: "/assets/images/aseem.jpg"
+  linkedin: "https://linkedin.com/in/example"
+
+# BTech Students
+- name: "Palaash Sen"
+  category: "btech"
+  research_focus: "Multimodal Learning"
+
+# Alumni
+- name: "John Doe"
+  category: "alumni"
+  research_focus: "Speech Recognition Systems"
