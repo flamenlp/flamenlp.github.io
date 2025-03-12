@@ -70,7 +70,7 @@
   category: "ra"
   joined: December, 2024
   research_focus: "COIL-D (Liasion Officer)"
-  image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
+  image: ""/assets/images/Rajnandini.jpg""
   linkedin: ""
 
 - name: "Sakshum Sharma"
@@ -91,14 +91,14 @@
   category: "ra"
   joined: January, 2025
   research_focus: "COIL-D (Linguistics)"
-  image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
+  image: ""/assets/images/Vaishnavi.jpg""
   linkedin: ""
 
 - name: "Siddhi Kerkar"
   category: "ra"
   joined: January, 2025
   research_focus: "COID-D (Linguistics)"
-  image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
+  image: ""/assets/images/Siddhi.jpg""
   linkedin: ""
 
 - name: "Nazia Akhtar"
@@ -119,7 +119,7 @@
   category: "ra"
     joined: Dec, 2024
   research_focus: "COIL-D (Linguistics)"
-  image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
+  image: ""/assets/images/Izza.jpg""
   linkedin: ""
 
 - name: "Prakash Tejwani"
