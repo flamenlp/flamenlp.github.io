@@ -61,60 +61,70 @@
 # Research Associates
 - name: "Asbah Khan"
   category: "ra"
+  joined: October, 2024
   research_focus: "Propaganda Detection"
   image: "/assets/images/asbah.jpg"
   linkedin: "https://www.linkedin.com/in/asbah-khan-7a130222b/"
 
 - name: "Rajnandini Pujari"
   category: "ra"
+  joined: December, 2024
   research_focus: "COIL-D (Liasion Officer)"
   image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
   linkedin: ""
 
 - name: "Sakshum Sharma"
   category: "ra"
+  joined: January, 2025
   research_focus: "COIL-D (Technical)"
   image: "/assets/images/Sakshum.jpg"
   linkedin: "https://www.linkedin.com/in/sakshum-sharma-2000/"
 
 - name: "Meena Sharma"
   category: "ra"
+  joined: January, 2025
   research_focus: "COIL-D (Linguistics)"
   image: "/assets/images/mina.jpg"
   linkedin: "https://www.linkedin.com/in/meena-sharma-73b631157/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
 - name: "Vaishnavi Raikar"
   category: "ra"
+  joined: January, 2025
   research_focus: "COIL-D (Linguistics)"
   image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
   linkedin: ""
 
 - name: "Siddhi Kerkar"
   category: "ra"
+  joined: January, 2025
   research_focus: "COID-D (Linguistics)"
   image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
   linkedin: ""
 
 - name: "Nazia Akhtar"
   category: "ra"
+  joined: December, 2024
   research_focus: "COIL-D (Linguistics)"
   image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
   linkedin: ""
 
 - name: "Samshul Arfin"
   category: "ra"
+  joined: January, 2025
   research_focus: "COIL-D (Linguistics)"
   image: "https://static.vecteezy.com/system/resources/previews/045/711/185/non_2x/male-profile-picture-placeholder-for-social-media-forum-dating-site-chat-operator-design-social-profile-template-default-avatar-icon-flat-style-free-vector.jpg"
   linkedin: ""
 
 - name: "Izza Moin"
   category: "ra"
+    joined: Dec, 2024
   research_focus: "COIL-D (Linguistics)"
   image: "https://static.vecteezy.com/system/resources/previews/045/711/163/non_2x/default-avatar-female-profile-icon-grey-photo-placeholder-gray-profile-anonymous-face-picture-illustration-for-social-media-dating-profile-forum-vector.jpg"
   linkedin: ""
 
 - name: "Prakash Tejwani"
   category: "ra"
+  joined: March, 2025
   research_focus: "COIL-D (Linguistics)"
   image: "https://static.vecteezy.com/system/resources/previews/045/711/185/non_2x/male-profile-picture-placeholder-for-social-media-forum-dating-site-chat-operator-design-social-profile-template-default-avatar-icon-flat-style-free-vector.jpg"
   linkedin: ""
