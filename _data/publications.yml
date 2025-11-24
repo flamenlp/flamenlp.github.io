@@ -1,9 +1,30 @@
-- title: "Assess and Prompt: A Generative RL Framework for Improving Engagement in Online Mental Health Communities"
-  authors: "Palaash Goel, Dushyant Singh Chauhan, Md Shad Akhtar"
-  venue: "NAACL"
+- title: "CLEAR: Code-Mixed ASR with LLM-Driven Rescoring"
+  authors: "Shivam Kumar, Md Shad Akhtar"
+  venue: "ICNLSP"
   year: 2025
   category: "Conference"
-  link: "https://arxiv.org/abs/2502.07391"
+  link: "https://aclanthology.org/2025.icnlsp-1.33/"
+
+- title: "CommonSense to DomainSense: Distilling Commonsense Reasoning to Domain-specific Knowledge Graphs"
+  authors: "Narotam N, Mohammad Kaif, Neemesh Yadav, Raghava Mutharaju, Md. Shad Akhtar"
+  venue: "K-CAP"
+  year: 2025
+  category: "Conference"
+  link: ""
+
+- title: "Redefining Experts: Interpretable Decomposition of Language Models for Toxicity Mitigation"
+  authors: "Zuhair Hasan Shaik, Abdullah Mazhar, Aseem Srivastava, Md Shad Akhtar"
+  venue: "NeurIPS"
+  year: 2025
+  category: "Conference"
+  link: "https://arxiv.org/abs/2509.16660"
+
+- title: "Assess and Prompt: A Generative RL Framework for Improving Engagement in Online Mental Health Communities"
+  authors: "Bhagesh Gaur, Karan Gupta, Aseem Srivastava, Manish Gupta, Md Shad Akhtar"
+  venue: "EMNLP"
+  year: 2025
+  category: "Conference"
+  link: "https://arxiv.org/abs/2508.16788"
 
 - title: "Target-Augmented Shared Fusion-based Multimodal Sarcasm Explanation Generation"
   authors: "Palaash Goel, Dushyant Singh Chauhan, Md Shad Akhtar"
