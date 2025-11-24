@@ -34,3 +34,7 @@ social:
   linkedin: https://www.linkedin.com/company/flamenlp/?viewAsMember=true
   github: https://github.com/flamenlp
   scholar: https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en
+
+# 💥 REQUIRED FIX
+exclude:
+  - _site
