@@ -58,6 +58,16 @@
   linkedin: "https://www.linkedin.com/in/a-aditya-bhardwaj/"
   google_scholar: "#"
 
+# PhD Students
+- name: "Abhishek Singh Yadav"
+  category: "phd"
+  joined: "July, 2025"
+  research_focus: "Deception Analysis"
+  image: "/assets/images/abhishek.jpg"
+  website: "#"
+  linkedin: "https://www.linkedin.com/in/abhishek-singh-yadav-70724a203/"
+  google_scholar: "#" 
+
 # Research Associates
 - name: "Asbah Khan"
   category: "ra"
