@@ -6,14 +6,14 @@
   link: "https://aclanthology.org/2025.icnlsp-1.33/"
 
 - title: "CommonSense to DomainSense: Distilling Commonsense Reasoning to Domain-specific Knowledge Graphs"
-  authors: "Narotam N, Mohammad Kaif, Neemesh Yadav, Raghava Mutharaju, Md. Shad Akhtar."
+  authors: "Narotam N, Mohammad Kaif, Neemesh Yadav, Raghava Mutharaju, Md. Shad AKHTAR"
   venue: "K-CAP"
   year: 2025
   category: "Conference"
   link: ""
 
 - title: "Redefining Experts: Interpretable Decomposition of Language Models for Toxicity Mitigation"
-  authors: "Zuhair Hasan Shaik, Abdullah Mazhar, Aseem Srivastava, Md Shad Akhtar"
+  authors: "Zuhair Hasan Shaik, Abdullah Mazhar, Aseem Srivastava, Md Shad AKHTAR"
   venue: "NeurIPS"
   year: 2025
   category: "Conference"
@@ -24,7 +24,8 @@
   venue: "EMNLP"
   year: 2025
   category: "Conference"
-  link: "https://arxiv.org/abs/2508.16788"
+  # link: "https://arxiv.org/abs/2508.16788"
+  link: "https://arxiv.org/abs/2502.07391"
 
 - title: "Target-Augmented Shared Fusion-based Multimodal Sarcasm Explanation Generation"
   authors: "Palaash Goel, Dushyant Singh Chauhan, Md Shad Akhtar"
