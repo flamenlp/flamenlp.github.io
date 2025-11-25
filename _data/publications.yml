@@ -6,14 +6,14 @@
   link: "https://aclanthology.org/2025.icnlsp-1.33/"
 
 - title: "CommonSense to DomainSense: Distilling Commonsense Reasoning to Domain-specific Knowledge Graphs"
-  authors: "Narotam N, Mohammad Kaif, Neemesh Yadav, Raghava Mutharaju, Md. Shad AKHTAR"
+  authors: "Narotam N, Mohammad Kaif, Neemesh Yadav, Raghava Mutharaju, Md Shad Akhtar"
   venue: "K-CAP"
   year: 2025
   category: "Conference"
   link: ""
 
 - title: "Redefining Experts: Interpretable Decomposition of Language Models for Toxicity Mitigation"
-  authors: "Zuhair Hasan Shaik, Abdullah Mazhar, Aseem Srivastava, Md Shad AKHTAR"
+  authors: "Zuhair Hasan Shaik, Abdullah Mazhar, Aseem Srivastava, Md Shad Akhtar"
   venue: "NeurIPS"
   year: 2025
   category: "Conference"
@@ -24,7 +24,6 @@
   venue: "EMNLP"
   year: 2025
   category: "Conference"
-  # link: "https://arxiv.org/abs/2508.16788"
   link: "https://arxiv.org/abs/2502.07391"
 
 - title: "Target-Augmented Shared Fusion-based Multimodal Sarcasm Explanation Generation"
@@ -35,14 +34,14 @@
   link: "https://arxiv.org/abs/2502.07391"
 
 - title: "Figurative-cum-Commonsense Knowledge Infusion for Multimodal Mental Health Meme Classification"
-  authors: "Abdullah Mazhar, Zuhair hasan Shaik, Aseem Srivastava, Polly Ruhnke, Lavanya Vaddavalli, Sri Keshav Katragadda, Shweta Yadav, Md Shad Akhtar"
+  authors: "Abdullah Mazhar, Zuhair Hasan Shaik, Aseem Srivastava, Polly Ruhnke, Sri Keshav Katragadda, Shweta Yadav, Md Shad Akhtar"
   venue: "The Web Conference"
   year: 2025
   category: "Conference"
   link: "https://arxiv.org/abs/2501.15321"
 
-- title: "Critical behavioral traits foster peer engagement in Online Mental Health Communities"
-  authors: "Aseem Srivastava, Tanya Gupta, Alison Cerezo, Sarah Peregrine (Grin) Lord, Md Shad Akhtar, Tanmoy Chakraborty"
+- title: "Critical Behavioral Traits Foster Peer Engagement in Online Mental Health Communities"
+  authors: "Aseem Srivastava, Tanya Gupta, Alison Cerezo, Sarah Peregrine Lord, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "PLOS ONE"
   year: 2024
   category: "Journal"
@@ -55,25 +54,25 @@
   category: "Conference"
   link: "https://arxiv.org/pdf/2409.14907v1"
 
-- title: "A Good Learner can Teach Better: TEACHER-STUDENT COLLABORATIVE KNOWLEDGE DISTILLATION"
+- title: "A Good Learner can Teach Better: Teacher-Student Collaborative Knowledge Distillation"
   authors: "Ayan Sengupta, Shantanu Dixit, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "ICLR"
   year: 2024
   category: "Journal"
   link: "https://openreview.net/pdf?id=Ixi4j6LtdX"
 
-- title: "Tox-BART: Leveraging Toxicity Attributes for Explanation Generation of Implicit Hate Speech(Findings)"
+- title: "Tox-BART: Leveraging Toxicity Attributes for Explanation Generation of Implicit Hate Speech"
   authors: "Neemesh Yadav, Sarah Masud, Vikram Goyal, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "ACL"
   year: 2024
   category: "Conference"
   link: "https://arxiv.org/pdf/2406.03953"
 
-- title: "Social, Economic and Demographic Factors Drive the Emergence of Hinglish Code-mixing on Social Media, Humanities and Social Sciences Communications"
+- title: "Social, Economic and Demographic Factors Drive the Emergence of Hinglish Code-Mixing on Social Media"
   authors: "Ayan Sengupta, Soham Das, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "Humanit Soc."
   year: 2024
-  category: ""
+  category: "Journal"
   link: "https://link.springer.com/article/10.1057/s41599-024-03058-6"
 
 - title: "Adding SPICE to Life: Speaker Profiling in Multiparty Conversations"
@@ -90,7 +89,7 @@
   category: "Conference"
   link: ""
 
-- title: "Probing Critical Learning Dynamics of LLMs for Hate Speech Detection(Findings)"
+- title: "Probing Critical Learning Dynamics of LLMs for Hate Speech Detection"
   authors: "Sarah Masud, Mohammad Aflah Khan, Vikram Goyal, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "EACL"
   year: 2024
@@ -106,7 +105,7 @@
 
 - title: "Manifold-Preserving Transformers are Effective for Short-Long Range Encoding"
   authors: "Ayan Sengupta, Md Shad Akhtar, Tanmoy Chakraborty"
-  venue: "EMNLP (Findings)"
+  venue: "EMNLP Findings"
   year: 2023
   category: "Conference"
   link: "https://aclanthology.org/2023.findings-emnlp.228.pdf"
@@ -119,7 +118,7 @@
   link: ""
 
 - title: "MEMEX: Detecting Explanatory Evidence for Memes via Knowledge-Enriched Contextualization"
-  authors: "Shivam Sharma, Ramaneswaran S, Udit Arora, Md. Shad Akhtar, Tanmoy Chakraborty"
+  authors: "Shivam Sharma, Ramaneswaran S, Udit Arora, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "ACL"
   year: 2023
   category: "Conference"
@@ -147,14 +146,14 @@
   link: "https://dl.acm.org/doi/abs/10.1145/3543507.3583380"
 
 - title: "Characterizing the Entities in Harmful Memes: Who is the Hero, the Villain, the Victim?"
-  authors: "Shivam Sharma, Atharva Kulkarni, Tharun Suresh, Himanshi Mathur, Preslav Nakov, Md. Shad Akhtar, Tanmoy Chakraborty"
+  authors: "Shivam Sharma, Atharva Kulkarni, Tharun Suresh, Himanshi Mathur, Preslav Nakov, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "EACL"
   year: 2023
   category: "Conference"
   link: "https://aclanthology.org/2023.eacl-main.157.pdf"
 
 - title: "What do you MEME? Generating Explanations for Visual Semantic Role Labelling in Memes"
-  authors: "Shivam Sharma, Siddhant Agarwal, Tharun Suresh, Preslav Nakov, Md. Shad Akhtar, Tanmoy Chakraborty"
+  authors: "Shivam Sharma, Siddhant Agarwal, Tharun Suresh, Preslav Nakov, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "AAAI"
   year: 2023
   category: "Conference"
@@ -181,7 +180,7 @@
   category: "Conference"
   link: "https://aclanthology.org/2022.naacl-main.433.pdf"
 
-- title: "A Taxonomy of English-Hindi Code-mixing: An Empirical Study and Dataset"
+- title: "A Taxonomy of English-Hindi Code-Mixing: An Empirical Study and Dataset"
   authors: "Ayan Sengupta, Md Shad Akhtar, Tanmoy Chakraborty"
   venue: "TACL"
   year: 2022
@@ -245,14 +244,14 @@
   link: "https://dl.acm.org/doi/10.1145/3427635"
 
 - title: "Towards Measuring Social Biases in Conversational AI"
-  authors: "Md Shad Akhtar, Punyajoy Saha, Pawan Goyal, Animesh Mukherjee, Md Shad Akhtar"
+  authors: "Md Shad Akhtar, Punyajoy Saha, Pawan Goyal, Animesh Mukherjee"
   venue: "EMNLP"
   year: 2021
   category: "Conference"
   link: "https://aclanthology.org/2021.emnlp-main.722/"
 
 - title: "Exploring the Role of Personalization in Sarcasm Detection"
-  authors: "Md Shad Akhtar, Md. Shad Akhtar, Pushpak Bhattacharyya, Asif Ekbal"
+  authors: "Md Shad Akhtar, Pushpak Bhattacharyya, Asif Ekbal"
   venue: "IEEE Intelligent Systems"
   year: 2021
   category: "Journal"
@@ -306,4 +305,3 @@
   year: 2020
   category: "Conference"
   link: "https://aclanthology.org/2020.lrec-1.216/"
-
