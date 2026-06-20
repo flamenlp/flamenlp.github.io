@@ -218,19 +218,33 @@
   
 # Alumni
 
-- name: "Shivam Kumar"
+# PhD Students
+- name: "Aseem Srivastava"
+  category: "alumni"
+  joined: "August, 2020"
+  research_focus: "AI in Mental-Health"
+  image: "/assets/images/aseem.jpg"
+  website: "https://as3eem.github.io/"
+  linkedin: "https://www.linkedin.com/in/as3eem/"
+  google_scholar: "https://scholar.google.com/citations?user=kgykojoAAAAJ&hl=en&authuser=1"
+
+- name: "Megha Sundriyal"
+  category: "alumni"
+  research_focus: "Misinformation and Claims"
+
+- name: "Shivam Kumar (MSR)"
   category: "alumni"
   research_focus: "Automatic Speech Recognition for Indian Languages."
   
-- name: "Sourav Chakraborty"
+- name: "Sourav Chakraborty (M.Tech)"
   category: "alumni"
   research_focus: "Reasoning in LLM."
 
-- name: "Ayush Agarwal"
+- name: "Ayush Agarwal (M.Tech)"
   category: "alumni"
   research_focus: "Assessing Trust in Mental Health Counseling Conversation (TCS Research)"
 
-- name: "Akshara Nair"
+- name: "Akshara Nair (M.Tech)"
   category: "alumni"
   research_focus: "Incongruence Identification in Eyewitness Narratives (Natwest)"
 
