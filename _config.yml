@@ -38,3 +38,5 @@ social:
 # 💥 REQUIRED FIX
 exclude:
   - _site
+  - vendor
+  - .bundle
