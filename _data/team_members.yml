@@ -218,16 +218,11 @@
   
 # Alumni
 
-- name: "Aseem Srivastava"
+- name: "Aseem Srivastava (PhD)"
   category: "alumni"
-  joined: "August, 2020"
   research_focus: "AI in Mental-Health"
-  image: "/assets/images/aseem.jpg"
-  website: "https://as3eem.github.io/"
-  linkedin: "https://www.linkedin.com/in/as3eem/"
-  google_scholar: "https://scholar.google.com/citations?user=kgykojoAAAAJ&hl=en&authuser=1"
-
-- name: "Megha Sundriyal"
+  
+- name: "Megha Sundriyal (PhD)"
   category: "alumni"
   research_focus: "Misinformation and Claims"
 
