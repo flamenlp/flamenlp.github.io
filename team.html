@@ -123,6 +123,7 @@ title: Team
             <ul>
                 {% for member in site.data.team_members %}
                 {% if member.category == "alumni" %}
+                <img src="{{ member.image }}" alt="{{ member.name }}">
                 <li>{{ member.name }} -- <b>Research:</b> {{ member.research_focus }}</li>
                 {% endif %}
                 {% endfor %}
