@@ -180,9 +180,9 @@
   category: "btech"
   research_focus: "Propaganda Detection"
 
-# - name: "Arjit Singh Arora"
-#   category: "btech"
-#   research_focus: "Narrative Summarization"
+- name: "Nikhil Agrawal"
+  category: "btech"
+  research_focus: "Intent Transition failure"
 
 # - name: "Sanmay Sood, Siddharth Rajput"
 #   category: "btech"
@@ -220,11 +220,11 @@
 
 - name: "Shivam Kumar"
   category: "alumni"
-  research_focus: "Automatic Speech Recognition for Indian Languages ()"
+  research_focus: "Automatic Speech Recognition for Indian Languages."
   
 - name: "Sourav Chakraborty"
   category: "alumni"
-  research_focus: "Reasoning in LLM ()"
+  research_focus: "Reasoning in LLM."
 
 - name: "Ayush Agarwal"
   category: "alumni"
