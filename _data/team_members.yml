@@ -69,12 +69,12 @@
   google_scholar: "#" 
 
 # Research Associates
-- name: "Asbah Khan"
-  category: "ra"
-  joined: "October, 2024"
-  research_focus: "Propaganda Detection"
-  image: "/assets/images/asbah.jpg"
-  linkedin: "https://www.linkedin.com/in/asbah-khan-7a130222b/"
+# - name: "Asbah Khan"
+#   category: "ra"
+#   joined: "October, 2024"
+#   research_focus: "Propaganda Detection"
+#   image: "/assets/images/asbah.jpg"
+#   linkedin: "https://www.linkedin.com/in/asbah-khan-7a130222b/"
 
 - name: "Rajnandini Pujari"
   category: "ra"
@@ -83,12 +83,12 @@
   image: "/assets/images/Rajnandini.jpg"
   linkedin: ""
 
-- name: "Sakshum Sharma"
+- name: "Atai Waris Khan"
   category: "ra"
-  joined: "January, 2025"
+  joined: "July, 2025"
   research_focus: "COIL-D (Technical)"
-  image: "/assets/images/Sakshum.jpg"
-  linkedin: "https://www.linkedin.com/in/sakshum-sharma-2000/"
+  image: ""
+  linkedin: "https://www.linkedin.com/in/atai-waris-khan-324289213/"
 
 - name: "Meena Sharma"
   category: "ra"
