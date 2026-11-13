@@ -1,3 +1,10 @@
+- title: "Reasoning for Propaganda Detection via Label-Guided CoT Optimisation"
+  authors: "Zeba Afroz, Harsh Vardhan, Md Shad Akhtar"
+  venue: "EACL"
+  year: 2027
+  category: "Conference"
+  link: "https://arxiv.org/abs/2610.17271"
+
 - title: "Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation"
   authors: "Atai Waris Khan, Abdullah Mazhar, Raghu Kumar, Md Shad Akhtar"
   venue: "EMNLP"
